@@ -142,3 +142,14 @@ p {
   height: 80px;
   display: block;
 }
+
+/* articles style */
+.article-section {
+  padding: 4rem 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: hsl(233, 26%, 24%);
+  padding: 2rem 0;
+}
