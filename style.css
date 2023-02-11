@@ -25,9 +25,18 @@ img {
   object-fit: cover;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(233, 26%, 24%);
+}
+
 p {
   line-height: 1.5;
-  color: hsl(0, 3%, 65%);
+  color: hsl(233, 8%, 62%);
   font-weight: 300;
   font-size: 1rem;
 }
@@ -116,7 +125,7 @@ p {
 /* Main styles */
 .main-content {
   background-color: hsl(220, 16%, 96%);
-  padding-top: 4rem;
+  padding: 4rem 0;
 }
 
 .sub-heading {
@@ -126,4 +135,10 @@ p {
 
 .perks-container {
   margin-top: 4rem;
+}
+
+.icons {
+  width: 80px;
+  height: 80px;
+  display: block;
 }
