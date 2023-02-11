@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: 1.125rem;
+  font-family: "Public Sans", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 80px;
+  z-index: 200;
+  background-color: #fffaff;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  line-height: 1.5;
+  color: hsl(0, 3%, 65%);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* Common styles */
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.headings-style {
+  width: 88%;
+  margin: auto;
+}
+
+.common-mar-btm {
+  margin-bottom: 1.5rem;
+}
+
+.sections-style {
+  width: 90%;
+  margin: auto;
+}
+
+/* Header styles */
+.header-container {
+  height: 100%;
+}
+
+/* Hero styles */
+.hero-section {
+  margin-bottom: 4rem;
+}
+
+.media {
+  position: relative;
+  max-height: 460px;
+}
+
+.intro {
+  height: 460px;
+}
+
+.mocks {
+  position: absolute;
+  top: -65px;
+  left: 0;
+  height: 460px;
+  z-index: 99;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+/* Button style */
+.btn {
+  display: block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(
+    90deg,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  border-radius: 30px;
+  color: #fffaff;
+  font-weight: 400;
+}
+
+/* Main styles */
+.main-content {
+  background-color: hsl(220, 16%, 96%);
+  padding-top: 4rem;
+}
+
+.sub-heading {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
