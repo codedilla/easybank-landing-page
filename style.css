@@ -41,6 +41,14 @@ p {
   font-size: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* Common styles */
 .flex-row {
   display: flex;
@@ -112,6 +120,7 @@ p {
   outline: none;
   margin-top: 2rem;
   padding: 1rem 2rem;
+  font-size: 1rem;
   background-image: linear-gradient(
     90deg,
     hsl(136, 65%, 51%),
@@ -119,7 +128,7 @@ p {
   );
   border-radius: 30px;
   color: #fffaff;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 /* Main styles */
@@ -148,8 +157,41 @@ p {
   padding: 4rem 0;
 }
 
+.article-section img {
+  border-radius: 6px 6px 0 0;
+}
+
+.article-text {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0 0 6px 6px;
+  padding: 2rem;
+}
+
+.articles {
+  margin-bottom: 1.5rem;
+}
+
 /* Footer styles */
 footer {
+  width: 100%;
   background-color: hsl(233, 26%, 24%);
   padding: 2rem 0;
+}
+
+.social-icons {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.social-icons i {
+  padding-right: 0.5rem;
+}
+
+footer nav ul li {
+  margin-bottom: 1rem;
+}
+
+footer nav ul li a {
+  color: hsl(0, 0%, 100%);
 }
